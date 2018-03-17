@@ -1,6 +1,6 @@
 import * as _ from 'lodash'
 import BigNumber from 'bignumber.js'
-const {deriveKeypair} = require('ripple-keypairs')
+const {deriveKeypair} = require('ledgerd-keypairs')
 
 import {Amount, RippledAmount} from './types/objects'
 

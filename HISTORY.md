@@ -1,4 +1,8 @@
-# ripple-lib Release History
+# ledgerd-lib Release History
+
+## 0.19.1 (2018-03-16)
+
++ [change default address codec to ledgerd]
 
 ## 0.19.0 (2018-03-02)
 

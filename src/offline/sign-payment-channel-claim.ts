@@ -1,6 +1,6 @@
 import * as common from '../common'
-import keypairs = require('ripple-keypairs')
-import binary = require('ripple-binary-codec')
+import keypairs = require('ledgerd-keypairs')
+import binary = require('ledgerd-binary-codec')
 const {validate, xrpToDrops} = common
 
 function signPaymentChannelClaim(channel: string, amount: string,

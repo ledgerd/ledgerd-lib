@@ -7,7 +7,7 @@ const errors = require('../../src/common/errors');
 const wallet = require('./wallet');
 const requests = require('../fixtures/requests');
 const RippleAPI = require('ripple-api').RippleAPI;
-const {isValidAddress} = require('ripple-address-codec');
+const {isValidAddress} = require('ledgerd-address-codec');
 const {isValidSecret} = require('../../src/common');
 const {payTo, ledgerAccept} = require('./utils');
 

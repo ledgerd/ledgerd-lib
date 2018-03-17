@@ -1,7 +1,7 @@
 import * as utils from './utils'
-import keypairs = require('ripple-keypairs')
-import binary = require('ripple-binary-codec')
-import {computeBinaryTransactionHash} from 'ripple-hashes'
+import keypairs = require('ledgerd-keypairs')
+import binary = require('ledgerd-binary-codec')
+import {computeBinaryTransactionHash} from 'ledgerd-hashes'
 const validate = utils.common.validate
 
 function computeSignature(tx: Object, privateKey: string, signAs?: string) {

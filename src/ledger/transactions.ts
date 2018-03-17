@@ -1,6 +1,6 @@
 import * as _ from 'lodash'
-import binary = require('ripple-binary-codec')
-const {computeTransactionHash} = require('ripple-hashes')
+import binary = require('ledgerd-binary-codec')
+const {computeTransactionHash} = require('ledgerd-hashes')
 import * as utils from './utils'
 import parseTransaction from './parse/transaction'
 import getTransaction from './transaction'

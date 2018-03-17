@@ -1,5 +1,5 @@
-import keypairs = require('ripple-keypairs')
-import binary = require('ripple-binary-codec')
+import keypairs = require('ledgerd-keypairs')
+import binary = require('ledgerd-binary-codec')
 import {validate, xrpToDrops} from '../common'
 
 function verifyPaymentChannelClaim(channel: string, amount: string,
