@@ -4,7 +4,7 @@ A JavaScript API for interacting with the LGD Ledger
 
 [![Circle CI](https://circleci.com/gh/ripple/ripple-lib/tree/develop.svg?style=svg)](https://circleci.com/gh/ripple/ripple-lib/tree/develop) [![Coverage Status](https://coveralls.io/repos/ripple/ripple-lib/badge.png?branch=develop)](https://coveralls.io/r/ripple/ripple-lib?branch=develop)
 
-[![NPM](https://nodei.co/npm/ripple-lib.png)](https://www.npmjs.org/package/ripple-lib)
+[![NPM](https://nodei.co/npm/ledgerd-lib.png)](https://www.npmjs.org/package/ledgerd-lib)
 
 ### Features
 
