@@ -1,6 +1,6 @@
-# ripple-lib
+# ledgerd-lib
 
-A JavaScript API for interacting with the XRP Ledger
+A JavaScript API for interacting with the LGD Ledger
 
 [![Circle CI](https://circleci.com/gh/ripple/ripple-lib/tree/develop.svg?style=svg)](https://circleci.com/gh/ripple/ripple-lib/tree/develop) [![Coverage Status](https://coveralls.io/repos/ripple/ripple-lib/badge.png?branch=develop)](https://coveralls.io/r/ripple/ripple-lib?branch=develop)
 
@@ -21,9 +21,9 @@ You can use `npm`, but we recommend using `yarn` for the added assurance provide
 
 + [Yarn Installation Instructions](https://yarnpkg.com/en/docs/install)
 
-Install `ripple-lib`:
+Install `ledgerd-lib`:
 ```
-$ yarn add ripple-lib
+$ npm install ledgerd-lib
 ```
 
 Then see the [documentation](https://github.com/ripple/ripple-lib/blob/develop/docs/index.md) and [code samples](https://github.com/ripple/ripple-lib/tree/develop/docs/samples)
